@@ -2,8 +2,8 @@
 	"name": "whiteboard-theme",
 	"displayName": "Whiteboard-theme",
 	"description": "Suckless white theme.",
-	"publisher": "jsm.dev",
-	"version": "0.0.1",
+	"publisher": "jsm-dev",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.72.0"
 	},
@@ -19,7 +19,7 @@
 			{
 				"label": "Whiteboard theme",
 				"uiTheme": "vs",
-				"path": "./themes/Whiteboard theme-color-theme.json"
+				"path": "./themes/Whiteboard-color-theme.json"
 			}
 		]
 	}
