@@ -1,21 +1,25 @@
 {
-  "name": "whiteboard-theme",
-  "displayName": "Whiteboard-theme",
-  "description": "Suckless white theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.72.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Whiteboard theme",
-        "uiTheme": "vs",
-        "path": "./themes/Whiteboard theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "whiteboard-theme",
+	"displayName": "Whiteboard-theme",
+	"description": "Suckless white theme.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.72.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"url": "https://github.com/jsm04/whiteboard-theme",
+		"type": "git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Whiteboard theme",
+				"uiTheme": "vs",
+				"path": "./themes/Whiteboard theme-color-theme.json"
+			}
+		]
+	}
 }
