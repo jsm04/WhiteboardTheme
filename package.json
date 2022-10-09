@@ -2,6 +2,7 @@
 	"name": "whiteboard-theme",
 	"displayName": "Whiteboard-theme",
 	"description": "Suckless white theme.",
+	"publisher": "jsm.dev",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.72.0"
