@@ -610,7 +610,8 @@
 			"name": "Classes",
 			"scope": "support.class, entity.name.type.class",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#9c3db0",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -666,7 +667,8 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -980,7 +982,7 @@
 			"name": "illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -994,21 +996,21 @@
 			"name": "Broken",
 			"scope": "invalid.broken",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Unimplemented",
 			"scope": "invalid.unimplemented",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#000000"
 			}
 		},
 		{
