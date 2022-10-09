@@ -980,7 +980,7 @@
 			"name": "illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -994,21 +994,21 @@
 			"name": "Broken",
 			"scope": "invalid.broken",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
 			"name": "Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
 			"name": "Unimplemented",
 			"scope": "invalid.unimplemented",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -1863,18 +1863,18 @@
 		"diffEditor.insertedTextBackground": "#9bb95533",
 		"diffEditor.removedTextBackground": "#ff000033",
 		"diffEditor.border": "#000000",
-		"panel.background": "#000000",
-		"panel.border": "#fcfcfc",
-		"panelTitle.activeBorder": "#ffffff",
-		"panelTitle.activeForeground": "#ff0000",
-		"panelTitle.inactiveForeground": "#ababab",
+		"panel.background": "#ffffff",
+		"panel.border": "#000000",
+		"panelTitle.activeBorder": "#000000",
+		"panelTitle.activeForeground": "#000000",
+		"panelTitle.inactiveForeground": "#3d3d3d",
 		"badge.background": "#f94144",
 		"badge.foreground": "#ffffff",
-		"terminal.foreground": "#ffffff",
+		"terminal.foreground": "#000000",
 		"terminal.selectionBackground": "#79737340",
 		"terminalCursor.background": "#f94144",
 		"terminalCursor.foreground": "#ffffff",
-		"terminal.border": "#ffffff",
+		"terminal.border": "#000000",
 		"terminal.ansiBlack": "#29343d",
 		"terminal.ansiBlue": "#577590",
 		"terminal.ansiBrightBlack": "#394956",
@@ -1889,7 +1889,7 @@
 		"terminal.ansiGreen": "#90be6d",
 		"terminal.ansiMagenta": "#f9c74f",
 		"terminal.ansiRed": "#f8961e",
-		"terminal.ansiWhite": "#555555",
+		"terminal.ansiWhite": "#969696",
 		"terminal.ansiYellow": "#f3722c",
 		"breadcrumb.background": "#ffffff",
 		"breadcrumb.foreground": "#000000",
@@ -1984,7 +1984,7 @@
 		"minimap.background": "#fcfcfc",
 		"sideBar.dropBackground": "#90be6d",
 		"editorGroup.emptyBackground": "#fcfcfc",
-		"panelSection.border": "#ffffff",
+		"panelSection.border": "#000000",
 		"statusBarItem.activeBackground": "#FFFFFF25",
 		"settings.headerForeground": "#000000",
 		"settings.focusedRowBackground": "#ffffff07",
