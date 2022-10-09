@@ -3,7 +3,7 @@
 	"displayName": "Whiteboard-theme",
 	"description": "Suckless white theme.",
 	"publisher": "jsm-dev",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"engines": {
 		"vscode": "^1.72.0"
 	},
