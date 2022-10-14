@@ -1,9 +1,9 @@
 {
 	"name": "whiteboard-theme",
-	"displayName": "Whiteboard-theme",
+	"displayName": "Whiteboard theme",
 	"description": "Suckless white theme.",
 	"publisher": "jsm-dev",
-	"version": "0.0.14",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.72.0"
 	},
@@ -14,10 +14,11 @@
 		"url": "https://github.com/jsm04/whiteboard-theme",
 		"type": "git"
 	},
+	"icon": "icons/theme-icon.png",
 	"contributes": {
 		"themes": [
 			{
-				"label": "Whiteboard theme",
+				"label": "Whiteboard Theme",
 				"uiTheme": "vs",
 				"path": "./themes/whiteboard-color-theme.json"
 			}

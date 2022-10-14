@@ -179,7 +179,7 @@
 			"name": "js/ts import keyword",
 			"scope": "keyword.operator.expression.import",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -201,6 +201,27 @@
 			"scope": "variable.other.constant",
 			"settings": {
 				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "js/ts variable.other.constant.object",
+			"scope": "variable.other.constant",
+			"settings": {
+				"foreground": "#0086ff"
+			}
+		},
+		{
+			"name": "js/ts variable.other.constant.property",
+			"scope": "variable.other.constant.property",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "source.ini",
+			"scope": "source.ini",
+			"settings": {
+				"foreground": "#0000FF"
 			}
 		},
 		{
@@ -256,14 +277,14 @@
 			"name": "operator logical",
 			"scope": "keyword.operator.logical",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "operator bitwise",
 			"scope": "keyword.operator.bitwise",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -416,7 +437,7 @@
 			"name": "keyword.operator",
 			"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -434,6 +455,17 @@
 			}
 		},
 		{
+			"name": "Punctuation js/ts",
+			"scope": [
+				"keyword.operator.assignment",
+				"keyword.operator.arithmetic",
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Other punctuation .c",
 			"scope": "punctuation.separator.c,punctuation.separator.cpp",
 			"settings": {
@@ -445,6 +477,19 @@
 			"scope": "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
 			"settings": {
 				"foreground": "#9c3db0"
+			}
+		},
+		{
+			"name": "Italics on JS/TS",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"storage",
+				"meta.object-literal.key",
+				"variable.language.constructor"
+			],
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -519,9 +564,9 @@
 		},
 		{
 			"name": "Compound Assignment Operators js/ts",
-			"scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
+			"scope": "keyword.operator.assignment.compound",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -639,7 +684,16 @@
 			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#43aa8b",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "TS Interface",
+			"scope": "entity.name.type.interface",
+			"settings": {
+				"foreground": "#43aa8b",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -905,6 +959,13 @@
 			}
 		},
 		{
+			"name": "Template string",
+			"scope": "string.template",
+			"settings": {
+				"foreground": "#00000095"
+			}
+		},
+		{
 			"name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
 			"scope": "punctuation.definition.list.markdown",
 			"settings": {
@@ -1157,7 +1218,7 @@
 			"name": "php logical/bitwise operator",
 			"scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -1171,7 +1232,7 @@
 			"name": "php comparison",
 			"scope": "keyword.operator.comparison.php",
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -1255,7 +1316,8 @@
 			"name": "ts primitive/builtin types",
 			"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#43aa8b",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1388,7 +1450,7 @@
 			"name": "js operator.assignment",
 			"scope": ["keyword.operator.assignment"],
 			"settings": {
-				"foreground": "#9c3db0"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -1518,6 +1580,14 @@
 			"scope": ["meta.definition.variable.name.groovy"],
 			"settings": {
 				"foreground": "#0086ff"
+			}
+		},
+		{
+			"name": "Meta decorator",
+			"scope": ["meta..decorator"],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1714,6 +1784,14 @@
 			"name": "js/ts italic",
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "vairable.parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#0086ff",
 				"fontStyle": "italic"
 			}
 		},
